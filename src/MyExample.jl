@@ -1,8 +1,15 @@
 module MyExample
 
 
-function main_func()
+function helper()
     println("Hello!")
+end
+
+
+
+
+function main_func()
+    helper()
 end
 export main_func
 
